@@ -1,0 +1,45 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Local editor/system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data and experiment outputs
+data/
+runs/
+artifacts/
+outputs/
+checkpoints/
+
+# Model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Matplotlib/cache output
+.matplotlib/
