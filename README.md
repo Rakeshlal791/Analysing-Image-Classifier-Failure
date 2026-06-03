@@ -6,13 +6,13 @@ The core idea:
 
 > A high-confidence mistake may happen because the input is closer to the predicted class than the true class in the classifier's own embedding space.
 
-## Hero Examples
+## High Confidence Failure Examples
 
 The grids below show two high-confidence CIFAR-100 failures. Each row retrieves nearest examples from a 5% support set using the classifier's penultimate-layer embedding.
 
 | Clock predicted as lamp | Dinosaur predicted as aquarium fish |
 | --- | --- |
-| ![Clock predicted as lamp](runs/cifar100_embedding_retrieval/high_confidence_failure_reports/grids/failure_0012_clock_as_lamp.png) | ![Dinosaur predicted as aquarium fish](runs/cifar100_embedding_retrieval/high_confidence_failure_reports/grids/failure_0013_dinosaur_as_aquarium_fish.png) |
+| ![Clock predicted as lamp](readme_imgs/failure_0012_clock_as_lamp.png) | ![Dinosaur predicted as aquarium fish](readme_imgs/failure_0013_dinosaur_as_aquarium_fish.png) |
 
 In the clock example, the classifier predicts `lamp` with `0.980` confidence. The nearest lamp support image is much closer than the nearest clock support image:
 
